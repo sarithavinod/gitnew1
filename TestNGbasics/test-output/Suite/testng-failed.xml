@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="edge"/>
+  <test name="edgeTest(failed)" parallel="tests">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="crossBrowserTest.CBTnewdetours">
+        <methods>
+          <include name="login"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+          <include name="closebrowser"/>
+          <include name="openbrowser"/>
+          <include name="openbrowser"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- crossBrowserTest.CBTnewdetours -->
+    </classes>
+  </test> <!-- edgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

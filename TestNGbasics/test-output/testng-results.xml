@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12530" started-at="2017-01-27T00:30:55Z" finished-at="2017-01-27T00:31:07Z">
+    <groups>
+    </groups>
+    <test name="Edgetest" duration-ms="5757" started-at="2017-01-27T00:30:55Z" finished-at="2017-01-27T00:31:01Z">
+      <class name="crossBrowserTest.ActualCBT">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:crossBrowserTest.ActualCBT@6adca536]" name="openbrowser" is-config="true" duration-ms="3225" started-at="2017-01-26T16:30:55Z" finished-at="2017-01-26T16:30:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="verifytitle()[pri:0, instance:crossBrowserTest.ActualCBT@6adca536]" name="verifytitle" duration-ms="67" started-at="2017-01-26T16:30:58Z" finished-at="2017-01-26T16:30:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTest.ActualCBT@6adca536]" name="closeBrowser" is-config="true" duration-ms="2451" started-at="2017-01-26T16:30:58Z" finished-at="2017-01-26T16:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- crossBrowserTest.ActualCBT -->
+    </test> <!-- Edgetest -->
+    <test name="chrometest" duration-ms="10346" started-at="2017-01-27T00:30:55Z" finished-at="2017-01-27T00:31:05Z">
+      <class name="crossBrowserTest.ActualCBT">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:crossBrowserTest.ActualCBT@725bef66]" name="openbrowser" is-config="true" duration-ms="8231" started-at="2017-01-26T16:30:55Z" finished-at="2017-01-26T16:31:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="verifytitle()[pri:0, instance:crossBrowserTest.ActualCBT@725bef66]" name="verifytitle" duration-ms="12" started-at="2017-01-26T16:31:03Z" finished-at="2017-01-26T16:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTest.ActualCBT@725bef66]" name="closeBrowser" is-config="true" duration-ms="2101" started-at="2017-01-26T16:31:03Z" finished-at="2017-01-26T16:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- crossBrowserTest.ActualCBT -->
+    </test> <!-- chrometest -->
+    <test name="Firefoxtest" duration-ms="12530" started-at="2017-01-27T00:30:55Z" finished-at="2017-01-27T00:31:07Z">
+      <class name="crossBrowserTest.ActualCBT">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:0, instance:crossBrowserTest.ActualCBT@63d4e2ba]" name="openbrowser" is-config="true" duration-ms="12479" started-at="2017-01-26T16:30:55Z" finished-at="2017-01-26T16:31:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="verifytitle()[pri:0, instance:crossBrowserTest.ActualCBT@63d4e2ba]" name="verifytitle" duration-ms="27" started-at="2017-01-26T16:31:07Z" finished-at="2017-01-26T16:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crossBrowserTest.ActualCBT@63d4e2ba]" name="closeBrowser" is-config="true" duration-ms="22" started-at="2017-01-26T16:31:07Z" finished-at="2017-01-26T16:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- crossBrowserTest.ActualCBT -->
+    </test> <!-- Firefoxtest -->
+  </suite> <!-- Suite -->
+</testng-results>
